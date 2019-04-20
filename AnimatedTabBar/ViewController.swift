@@ -1,25 +1,29 @@
 //
 //  ViewController.swift
-//  AnimatedTabBar
+//  RAMAnimatedTabBarDemo
 //
-//  Created by 優樹永井 on 2018/07/09.
-//  Copyright © 2018年 優樹永井. All rights reserved.
+//  Created by Alex Kalinkin on 11/18/14.
+//  Copyright (c) 2014 Ramotion. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    var index: NSInteger = 0
+
+    // PRAGMA: actions
+    @IBAction func showBadgeHandelr(_: AnyObject) {
+        // example for showing badges
+        index += 1
+        tabBarItem.badgeValue = "\(index)"
+    }
+
+    @IBAction func hideBadgeHandler(_: AnyObject) {
+        tabBarItem.badgeValue = nil
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-

@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CF5226A1ABFDED7809BB533 /* Pods_AnimatedTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AEB02A92C2CDA0D50293A0 /* Pods_AnimatedTabBar.framework */; };
 		EF3346D420F3461C00DE1B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3346D320F3461C00DE1B62 /* AppDelegate.swift */; };
-		EF3346D620F3461C00DE1B62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3346D520F3461C00DE1B62 /* ViewController.swift */; };
-		EF3346D920F3461C00DE1B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3346D720F3461C00DE1B62 /* Main.storyboard */; };
 		EF3346DC20F3461C00DE1B62 /* AnimatedTabBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF3346DA20F3461C00DE1B62 /* AnimatedTabBar.xcdatamodeld */; };
 		EF3346DE20F3461E00DE1B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3346DD20F3461E00DE1B62 /* Assets.xcassets */; };
 		EF3346E120F3461E00DE1B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3346DF20F3461E00DE1B62 /* LaunchScreen.storyboard */; };
+		EF3346E920F3633900DE1B62 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3346E820F3633900DE1B62 /* RAMItemAnimationProtocol.swift */; };
+		EF3346EB20F3636100DE1B62 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3346EA20F3636100DE1B62 /* RAMAnimatedTabBarController+BottomLine.swift */; };
+		EF3346ED20F3636C00DE1B62 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3346EC20F3636B00DE1B62 /* RAMAnimatedTabBarController.swift */; };
+		EF3346F920F3637800DE1B62 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3346F020F3637800DE1B62 /* RAMFumeAnimation.swift */; };
+		EF3346FA20F3637800DE1B62 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3346F220F3637800DE1B62 /* RAMFrameItemAnimation.swift */; };
+		EF3346FB20F3637800DE1B62 /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3346F420F3637800DE1B62 /* RAMTransitionItemAnimations.swift */; };
+		EF3346FC20F3637800DE1B62 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3346F620F3637800DE1B62 /* RAMRotationAnimation.swift */; };
+		EF3346FD20F3637800DE1B62 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3346F820F3637800DE1B62 /* RAMBounceAnimation.swift */; };
+		EF33470020F3638200DE1B62 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3346FF20F3638200DE1B62 /* RAMBadge.swift */; };
+		EF33470220F3640C00DE1B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF33470120F3640C00DE1B62 /* Main.storyboard */; };
+		EF33470A20F3647300DE1B62 /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF33470920F3647300DE1B62 /* ToolsAnimation.plist */; };
+		EF33470E20F3650500DE1B62 /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = EF33470D20F3650500DE1B62 /* drop.png */; };
+		EF33471020F3650F00DE1B62 /* icon_pin_00160.png in Resources */ = {isa = PBXBuildFile; fileRef = EF33470F20F3650F00DE1B62 /* icon_pin_00160.png */; };
+		EF33471220F3651A00DE1B62 /* user_00084.png in Resources */ = {isa = PBXBuildFile; fileRef = EF33471120F3651A00DE1B62 /* user_00084.png */; };
+		EF33471420F3652400DE1B62 /* Settings_00208.png in Resources */ = {isa = PBXBuildFile; fileRef = EF33471320F3652300DE1B62 /* Settings_00208.png */; };
+		EF33471620F3653000DE1B62 /* Tools_00028 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = EF33471520F3653000DE1B62 /* Tools_00028 copy.png */; };
+		EFC7DEDE20F39DD70070595A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC7DEDD20F39DD70070595A /* ViewController.swift */; };
+		EFC7DF0420F39EBB0070595A /* user_00084.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC7DF0320F39EBB0070595A /* user_00084.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		403C26023B3FFDF230C34701 /* Pods-AnimatedTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedTabBar/Pods-AnimatedTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		94FEA7FF32029FC0E2E5AE0F /* Pods-AnimatedTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedTabBar/Pods-AnimatedTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		E5AEB02A92C2CDA0D50293A0 /* Pods_AnimatedTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3346D020F3461C00DE1B62 /* AnimatedTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3346D320F3461C00DE1B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF3346D520F3461C00DE1B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF3346D820F3461C00DE1B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF3346DB20F3461C00DE1B62 /* AnimatedTabBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimatedTabBar.xcdatamodel; sourceTree = "<group>"; };
 		EF3346DD20F3461E00DE1B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF3346E020F3461E00DE1B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF3346E220F3461E00DE1B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3346E820F3633900DE1B62 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		EF3346EA20F3636100DE1B62 /* RAMAnimatedTabBarController+BottomLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RAMAnimatedTabBarController+BottomLine.swift"; sourceTree = "<group>"; };
+		EF3346EC20F3636B00DE1B62 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		EF3346F020F3637800DE1B62 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		EF3346F220F3637800DE1B62 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		EF3346F420F3637800DE1B62 /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		EF3346F620F3637800DE1B62 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		EF3346F820F3637800DE1B62 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		EF3346FF20F3638200DE1B62 /* RAMBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBadge.swift; sourceTree = "<group>"; };
+		EF33470120F3640C00DE1B62 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EF33470920F3647300DE1B62 /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
+		EF33470D20F3650500DE1B62 /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
+		EF33470F20F3650F00DE1B62 /* icon_pin_00160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pin_00160.png; sourceTree = "<group>"; };
+		EF33471120F3651A00DE1B62 /* user_00084.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_00084.png; sourceTree = "<group>"; };
+		EF33471320F3652300DE1B62 /* Settings_00208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings_00208.png; sourceTree = "<group>"; };
+		EF33471520F3653000DE1B62 /* Tools_00028 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tools_00028 copy.png"; sourceTree = "<group>"; };
+		EFC7DEDD20F39DD70070595A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFC7DF0320F39EBB0070595A /* user_00084.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_00084.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF5226A1ABFDED7809BB533 /* Pods_AnimatedTabBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690F38FA316B60BD72F1C750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5AEB02A92C2CDA0D50293A0 /* Pods_AnimatedTabBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A3761A2F5DBE5E2F1F2A0E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				403C26023B3FFDF230C34701 /* Pods-AnimatedTabBar.debug.xcconfig */,
+				94FEA7FF32029FC0E2E5AE0F /* Pods-AnimatedTabBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF3346C720F3461C00DE1B62 = {
 			isa = PBXGroup;
 			children = (
 				EF3346D220F3461C00DE1B62 /* AnimatedTabBar */,
 				EF3346D120F3461C00DE1B62 /* Products */,
+				9A3761A2F5DBE5E2F1F2A0E4 /* Pods */,
+				690F38FA316B60BD72F1C750 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +113,94 @@
 			isa = PBXGroup;
 			children = (
 				EF3346D320F3461C00DE1B62 /* AppDelegate.swift */,
-				EF3346D520F3461C00DE1B62 /* ViewController.swift */,
-				EF3346D720F3461C00DE1B62 /* Main.storyboard */,
+				EF33471720F3663200DE1B62 /* RAMAnimatedTabBarController */,
+				EF33470120F3640C00DE1B62 /* Main.storyboard */,
 				EF3346DD20F3461E00DE1B62 /* Assets.xcassets */,
 				EF3346DF20F3461E00DE1B62 /* LaunchScreen.storyboard */,
+				EFC7DEDD20F39DD70070595A /* ViewController.swift */,
+				EF33470D20F3650500DE1B62 /* drop.png */,
+				EF33470F20F3650F00DE1B62 /* icon_pin_00160.png */,
+				EF33471120F3651A00DE1B62 /* user_00084.png */,
+				EFC7DF0320F39EBB0070595A /* user_00084.png */,
+				EF33471320F3652300DE1B62 /* Settings_00208.png */,
+				EF33471520F3653000DE1B62 /* Tools_00028 copy.png */,
 				EF3346E220F3461E00DE1B62 /* Info.plist */,
+				EF33470920F3647300DE1B62 /* ToolsAnimation.plist */,
 				EF3346DA20F3461C00DE1B62 /* AnimatedTabBar.xcdatamodeld */,
 			);
 			path = AnimatedTabBar;
+			sourceTree = "<group>";
+		};
+		EF3346EE20F3637800DE1B62 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EF3346EF20F3637800DE1B62 /* FumeAnimation */,
+				EF3346F120F3637800DE1B62 /* FrameAnimation */,
+				EF3346F320F3637800DE1B62 /* TransitionAniamtions */,
+				EF3346F520F3637800DE1B62 /* RotationAnimation */,
+				EF3346F720F3637800DE1B62 /* BounceAnimation */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		EF3346EF20F3637800DE1B62 /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EF3346F020F3637800DE1B62 /* RAMFumeAnimation.swift */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		EF3346F120F3637800DE1B62 /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EF3346F220F3637800DE1B62 /* RAMFrameItemAnimation.swift */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		EF3346F320F3637800DE1B62 /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				EF3346F420F3637800DE1B62 /* RAMTransitionItemAnimations.swift */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		EF3346F520F3637800DE1B62 /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EF3346F620F3637800DE1B62 /* RAMRotationAnimation.swift */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		EF3346F720F3637800DE1B62 /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EF3346F820F3637800DE1B62 /* RAMBounceAnimation.swift */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		EF3346FE20F3638200DE1B62 /* RAMBadge */ = {
+			isa = PBXGroup;
+			children = (
+				EF3346FF20F3638200DE1B62 /* RAMBadge.swift */,
+			);
+			path = RAMBadge;
+			sourceTree = "<group>";
+		};
+		EF33471720F3663200DE1B62 /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				EF3346FE20F3638200DE1B62 /* RAMBadge */,
+				EF3346EE20F3637800DE1B62 /* Animations */,
+				EF3346EA20F3636100DE1B62 /* RAMAnimatedTabBarController+BottomLine.swift */,
+				EF3346EC20F3636B00DE1B62 /* RAMAnimatedTabBarController.swift */,
+				EF3346E820F3633900DE1B62 /* RAMItemAnimationProtocol.swift */,
+			);
+			path = RAMAnimatedTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF3346E520F3461E00DE1B62 /* Build configuration list for PBXNativeTarget "AnimatedTabBar" */;
 			buildPhases = (
+				195065B0744EE4A2FB3A7154 /* [CP] Check Pods Manifest.lock */,
 				EF3346CC20F3461C00DE1B62 /* Sources */,
 				EF3346CD20F3461C00DE1B62 /* Frameworks */,
 				EF3346CE20F3461C00DE1B62 /* Resources */,
+				C22A859F089A32DDC02201F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +263,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF33471220F3651A00DE1B62 /* user_00084.png in Resources */,
+				EFC7DF0420F39EBB0070595A /* user_00084.png in Resources */,
+				EF33470220F3640C00DE1B62 /* Main.storyboard in Resources */,
+				EF33470E20F3650500DE1B62 /* drop.png in Resources */,
+				EF33471620F3653000DE1B62 /* Tools_00028 copy.png in Resources */,
+				EF33471020F3650F00DE1B62 /* icon_pin_00160.png in Resources */,
 				EF3346E120F3461E00DE1B62 /* LaunchScreen.storyboard in Resources */,
 				EF3346DE20F3461E00DE1B62 /* Assets.xcassets in Resources */,
-				EF3346D920F3461C00DE1B62 /* Main.storyboard in Resources */,
+				EF33470A20F3647300DE1B62 /* ToolsAnimation.plist in Resources */,
+				EF33471420F3652400DE1B62 /* Settings_00208.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		195065B0744EE4A2FB3A7154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimatedTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C22A859F089A32DDC02201F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AnimatedTabBar/Pods-AnimatedTabBar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimatedTabBar/Pods-AnimatedTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF3346CC20F3461C00DE1B62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF3346D620F3461C00DE1B62 /* ViewController.swift in Sources */,
+				EF3346FA20F3637800DE1B62 /* RAMFrameItemAnimation.swift in Sources */,
+				EF3346F920F3637800DE1B62 /* RAMFumeAnimation.swift in Sources */,
+				EF3346ED20F3636C00DE1B62 /* RAMAnimatedTabBarController.swift in Sources */,
+				EF33470020F3638200DE1B62 /* RAMBadge.swift in Sources */,
 				EF3346DC20F3461C00DE1B62 /* AnimatedTabBar.xcdatamodeld in Sources */,
+				EF3346EB20F3636100DE1B62 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */,
+				EF3346FD20F3637800DE1B62 /* RAMBounceAnimation.swift in Sources */,
+				EFC7DEDE20F39DD70070595A /* ViewController.swift in Sources */,
+				EF3346E920F3633900DE1B62 /* RAMItemAnimationProtocol.swift in Sources */,
 				EF3346D420F3461C00DE1B62 /* AppDelegate.swift in Sources */,
+				EF3346FB20F3637800DE1B62 /* RAMTransitionItemAnimations.swift in Sources */,
+				EF3346FC20F3637800DE1B62 /* RAMRotationAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF3346D720F3461C00DE1B62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF3346D820F3461C00DE1B62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF3346DF20F3461E00DE1B62 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +467,7 @@
 		};
 		EF3346E620F3461E00DE1B62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403C26023B3FFDF230C34701 /* Pods-AnimatedTabBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +486,7 @@
 		};
 		EF3346E720F3461E00DE1B62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94FEA7FF32029FC0E2E5AE0F /* Pods-AnimatedTabBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
